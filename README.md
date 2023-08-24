@@ -5,7 +5,6 @@ Welcome to my LeetCode solutions repository! This is a collection of coding chal
 To explore the solutions, simply clone this repository to your local machine:
 
 ```bash
-#!/usr/bin/env bash
 git clone https://github.com/yourusername/leetcode-solutions.git
 ```
 
