@@ -8,9 +8,9 @@ To explore the solutions, simply clone this repository to your local machine:
 git clone https://github.com/yourusername/problem-solving-portfolio.git
 ```
 
-Contact
+## Contact
 If you have any questions, suggestions, or just want to connect, feel free to reach out to me on [LinkedIn](https://www.linkedin.com/in/adiah-amadou/) or shoot me an email at [amadouadiah](mailto:amadouadiah@gmail.com).
 
-License
+## License
 This repository is available under the MIT License, allowing you to freely use and modify the code as needed.
 
