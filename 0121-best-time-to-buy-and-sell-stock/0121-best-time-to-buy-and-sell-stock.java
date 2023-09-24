@@ -1,44 +1,18 @@
 class Solution {
     public int maxProfit(int[] prices) {
-        if(prices == null || prices.length == 0 || prices.length == 1){
+        if(prices.length == 1){
             return 0;
         }
 
-        int minStock = Integer.MAX_VALUE;
-        int maxProfit = Integer.MIN_VALUE;
+        int minPrice = Integer.MAX_VALUE;
+        int maxDifference = Integer.MIN_VALUE;
 
-        for(int i = 0; i < prices.length; i ++){
-            minStock = Math.min(minStock, prices[i]);
-            
-            maxProfit = Math.max(maxProfit, prices[i]- minStock);
+        for(int i = 0; i < prices.length; i++){
+            minPrice = Math.min(minPrice, prices[i]);
+            maxDifference = Math.max(maxDifference, prices[i] - minPrice);
         }
 
-       /* int smallestIndex = 0;
-        int biggestIndex = 1;
+        return maxDifference;
 
-        int smallestValue = Integer.MAX_VALUE;
-        int biggestValue = Integer.MIN_VALUE;
-
-        int maxProfit = 0;
-
-        while(biggestIndex < prices.length){
-            if(prices[smallestIndex] < smallestValue){
-                smallestValue = prices[smallestIndex];
-                biggestValue = smallestValue;
-            }
-
-            if(prices[biggestIndex] > biggestValue){
-                biggestValue = prices[biggestIndex];
-            }
-
-            if(biggestValue > smallestValue && (biggestValue - smallestValue) > maxProfit){
-                maxProfit = biggestValue - smallestValue;
-            }
-
-            smallestIndex ++;
-            biggestIndex ++;
-        }*/
-
-        return maxProfit;
     }
 }
