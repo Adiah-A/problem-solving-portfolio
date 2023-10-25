@@ -6,11 +6,11 @@ class Solution {
             frequencyMap.put(nums[i], frequencyMap.getOrDefault(nums[i], 0) + 1);
         }
 
-        PriorityQueue<Map.Entry<Integer, Integer>> minHeap = 
-            new PriorityQueue<>((a, b) -> a.getValue() - b.getValue());
+        PriorityQueue<Integer> minHeap = 
+            new PriorityQueue<>((a, b) -> frequencyMap.get(a) - frequencyMap.get(b));
         
-        for(Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()){
-            minHeap.offer(entry);
+        for(Integer key : frequencyMap.keySet()){
+            minHeap.offer(key);
 
             if(minHeap.size() > k){
                 minHeap.poll();
@@ -22,7 +22,7 @@ class Solution {
         int i = 0;
 
         while(minHeap.size() > 0){
-            result[i] = minHeap.poll().getKey();
+            result[i] = minHeap.poll();
             i++;
         }
 
