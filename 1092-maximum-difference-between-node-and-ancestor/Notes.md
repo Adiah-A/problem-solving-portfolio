@@ -1,1 +1,1 @@
-<h2>maximum-difference-between-node-and-ancestor Notes</h2><hr>Similar to kadene's algorithm solution to finding the max sum of a sua
+<h2>maximum-difference-between-node-and-ancestor Notes</h2><hr>Similar to kadene's algorithm solution to finding the max sum of a subarray
