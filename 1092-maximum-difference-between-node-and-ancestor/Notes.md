@@ -1,1 +1,1 @@
-<h2>maximum-difference-between-node-and-ancestor Notes</h2><hr>Similar solution to to the one where you h=find the sum of teh 
+<h2>maximum-difference-between-node-and-ancestor Notes</h2><hr>Similar solution to to the one where you h=find the sum of teh maxi
