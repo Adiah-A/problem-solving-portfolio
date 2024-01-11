@@ -1,1 +1,1 @@
-<h2>maximum-difference-between-node-and-ancestor Notes</h2><hr>ijinu
+<h2>maximum-difference-between-node-and-ancestor Notes</h2><hr>Similar to 
